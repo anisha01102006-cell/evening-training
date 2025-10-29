@@ -1,0 +1,22 @@
+public class calculatorclass
+{
+    int add(int a,int b)
+    {
+        return a+b;
+    }
+    double multiply(double a,double b)
+    {
+        return a*b;  
+    }
+    float divide(float a,float b)
+    {
+        return a/b;
+    }
+    public static void main(String arg[])
+    {
+        calculatorclass obj=new calculatorclass();
+        System.out.println("addition= "+obj.add(10,20));
+        System.out.println("multiplication= "+obj.multiply(5,2));
+        System.out.println("division= "+obj.divide(20,4));
+    }
+}
